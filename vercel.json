@@ -1,0 +1,4 @@
+{
+    "version": 2,
+    "builds": [{ "src": "path/to/your/server.js", "use": "@vercel/node" }]
+  }
