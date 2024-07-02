@@ -1,7 +1,9 @@
 {
     "version": 2,
-    "builds": [{ "src": "index.js", "use": "@vercel/node" }],
-    "env": {
-      "MY_VAR": "value"
+    "functions": {
+      "api/alumnos": {
+        "handler": "api/alumnos.js"
+      }
     }
   }
+  
