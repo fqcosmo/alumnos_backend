@@ -1,4 +1,7 @@
 {
     "version": 2,
-    "builds": [{ "src": "path/to/your/server.js", "use": "@vercel/node" }]
+    "builds": [{ "src": "index.js", "use": "@vercel/node" }],
+    "env": {
+      "MY_VAR": "value"
+    }
   }
