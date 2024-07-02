@@ -1,0 +1,9 @@
+# netlify.toml
+
+[build]
+  functions = "functions"
+
+[[functions]]
+  path = "api/alumnos"
+  memory = 128
+  timeout = 10
