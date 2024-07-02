@@ -3,9 +3,7 @@
 [build]
   functions = "functions"  # Directorio donde se encuentran las funciones serverless
 
-[functions]
-  # Definición de la función serverless
-  [[functions]]
-    path = "api/alumnos"   # Ruta relativa de la función serverless
-    memory = 128           # Opcional: límite de memoria en MB
-    timeout = 10           # Opcional: tiempo máximo de ejecución en segundos
+[functions.api_alumnos]
+  path = "api/alumnos"   # Ruta relativa de la función serverless
+  memory = 128           # Opcional: límite de memoria en MB
+  timeout = 10           # Opcional: tiempo máximo de ejecución en segundos
